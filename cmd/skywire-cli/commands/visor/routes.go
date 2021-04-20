@@ -76,7 +76,7 @@ var addRuleCmd = &cobra.Command{
 		if len(args) > 0 {
 			switch rt := args[0]; rt {
 			case "app":
-				if len(args[0:]) == 4 {
+				if len(args[0:]) == 6 {
 					return nil
 				}
 				return errors.New("expected 4 args after 'app'")
